@@ -38,7 +38,7 @@ form.form > ((label.form__label > input.form__input) * 4) + (label.form__label >
 
 ![card](../img/card.jpg)
 
-ul.information > (li.information__item > img.information__card + p.information__title + a.information__link) * 3
+ul.information > (li.information__card > img.card__img + p.card__title + a.card__link) * 3
 
 ![choice](../img/choice.png)
 
