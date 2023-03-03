@@ -30,19 +30,19 @@
 
 ![header](../img/header.jpg)
 
-header.header > img.logo + nav.nav > ul.nav__list > li.nav__item * 5 
+header.header > (a.logo-link > img.logo) + nav.nav > ul.nav__list > (li.nav__item > a.nav__link) * 4 + (li.nav__item > a.nav__link > img.nav__cart-img)
 
 ![form](../img/form.jpg)
 
-form.form > ((label.form__label > input.form__input) * 4) + textarea.form__textarea + button.form__submit
+form.form > ((label.form__label > input.form__input) * 4) + (label.form__label > textarea.form__textarea) + button.form__submit
 
 ![card](../img/card.jpg)
 
-ul.information__list > (li.information__item > img.information__card + p.information__title + a.information__link) * 3
+ul.information > (li.information__item > img.information__card + p.information__title + a.information__link) * 3
 
 ![choice](../img/choice.png)
 
-ul.products__list > (li.products__item > a.products__link > img.products__card + h3.products__title + p.products__price) * 6 
+ul.products > (li.products__item > a.products__link > img.products__card + h3.products__title + p.products__price) * 6 
 
 
 
